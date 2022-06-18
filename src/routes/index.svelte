@@ -9,7 +9,7 @@
 	import { browser } from '$app/env';
 	import { page } from '$app/stores';
 
-	let initialEndTime = new Date(2022, 3, 29, 15, 0, 0).getTime();
+	let initialEndTime = new Date(2022, 7, 29, 15, 0, 0).getTime();
 
 	if (browser && localStorage.getItem('endTime')) {
 		const time = Number(localStorage.getItem('endTime'));
